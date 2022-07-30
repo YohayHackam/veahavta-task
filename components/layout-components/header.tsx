@@ -23,14 +23,14 @@ export default function Header({ data }: CommonType) {
         dir={dir}
         className={'bg-light text-primary'}
       />
-      <header className="h-header pt-12 z-10 sm:pt-5 px-5">
+      <header className="h-header z-10 pt-11.5 px-5 md:pt-5.5 2xl:px-0">
         <WrapperLarge
           className={`${openMenu}  grid-cols-1fr-auto transition-all overflow-hidden lg:grid-cols-auto-auto-1fr 2xl:mx-60 bg-light rounded-lg whitespace-nowrap flex-nowrap`}
         >
           <Logo
             height={62}
             width={142}
-            className="my-2 mr-3 flex flex-shrink-0 "
+            className="mt-1.6 mr-2 mb-1 md:mr-2.9 flex flex-shrink-0 "
           />
           <BurgerMenuButton
             alt={data.footerMenuTitle}
